@@ -20,6 +20,7 @@ function About() {
 			para: "Lorem ipsum dolor, sit amet maiores autem magnam amet at nulla itaque illo amet consectetur adipisicing elit. Velit ullam ipsa non dolore placeat molestiae vel dicta ut, temporibus in dolorem provident id recusandae numquam, distinctio est deserunt. Reprehenderit, blanditiis.",
 			btn: "Contact us",
 			btn_link: "/contact",
+			video: "/videos/Giraffes - 81466.mp4",
 			image: [
 				{
 					id: 1,

@@ -2309,6 +2309,9 @@ input {
 			margin: 2rem 0 0;
 			list-style: none;
 			text-align: center;
+			&.disabled {
+				display: none;
+			}
 			.owl-dot {
 				font-size: 0;
 				line-height: 0;

@@ -649,6 +649,12 @@ footer {
 			@include object;
 		}
 	}
+	.vid_blk {
+		video {
+			-o-object-fit: cover;
+			object-fit: cover;
+		}
+	}
 }
 
 /*
@@ -2055,7 +2061,7 @@ footer {
 		@include img;
 		margin: 0;
 		// padding-bottom: 120%;
-		padding-bottom: calc(100vh - 8rem);
+		padding-bottom: calc(100vh - 15rem);
 		> img {
 			@include object($fill: true);
 		}
@@ -2116,6 +2122,100 @@ footer {
 			}
 			h6 {
 				margin: 1rem 0 0;
+			}
+		}
+	}
+}
+
+#home_folio {
+	padding: 0;
+	#owl-home_folio {
+		.item {
+			position: relative;
+			height: 20rem;
+			min-height: 100vh;
+			@include bg(cover);
+			> a {
+				@include pos;
+				@include flex(center, center);
+				color: #fff;
+				font-size: 7rem;
+				font-weight: 500;
+				text-shadow: 2px 4px 4px rgba($black, 0.3);
+			}
+		}
+		.owl-prev {
+			left: 1.5rem;
+		}
+		.owl-next {
+			right: 1.5rem;
+		}
+	}
+}
+
+#when_go {
+	min-height: calc(100vh - 8rem);
+	.tab_btns {
+		@include list;
+		@include flex($justify: space-between);
+		> li {
+			> button {
+				@include flex(center, center);
+				width: 6rem;
+				min-width: 6rem;
+				height: 6rem;
+				background: $black;
+				color: $light;
+				font-size: 80%;
+				border-radius: 75%;
+				font-weight: 500;
+				text-transform: uppercase;
+				margin: 0 auto;
+				padding: 0;
+				border: 0;
+			}
+		}
+	}
+	.btm_blk {
+		margin-top: 3rem;
+		padding: 3rem;
+		.inner {
+			max-width: 60rem;
+			margin: auto;
+		}
+		.bar {
+			@include flex(center, center);
+			gap: 2rem;
+			margin-bottom: 1rem;
+			.line {
+				width: 10rem;
+				height: 0.4rem;
+			}
+		}
+	}
+}
+
+#what_see {
+	min-height: calc(100vh - 8rem);
+	.inner {
+		.fig {
+			@include img($pb: 70%);
+			margin-bottom: 2rem;
+			> img {
+				@include object($fill: true);
+			}
+		}
+	}
+}
+
+#expo {
+	min-height: calc(100vh - 8rem);
+	.inner {
+		.fig {
+			@include img($pb: 70%);
+			margin-bottom: 2rem;
+			> img {
+				@include object($fill: true);
 			}
 		}
 	}

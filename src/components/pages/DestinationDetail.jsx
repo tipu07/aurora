@@ -1,11 +1,13 @@
 import React from "react";
-import Cover from "../common/Cover";
+// import Cover from "../common/Cover";
+import HomeFolio from "./section/HomeFolio";
 // import DestinationTabs from "./section/DestinationTabs";
 import OverviewDestination from "./section/OverviewDestination";
 // import WhatWeDo from "./section/WhatWeDo";
 // import Experience from "./section/Experience";
 // import EnquireBlk from "./section/EnquireBlk";
 // import Itinerary from "./section/Itinerary";
+import DestinationFuture from "./section/DestinationFuture";
 import Trip from "./section/Trip";
 
 function DestinationDetail() {
@@ -168,11 +170,16 @@ function DestinationDetail() {
 				},
 			],
 		},
+		home_folio: {
+			img_01: "/images/elephants-4864736_1920.jpg",
+		},
 	};
 	return (
 		<>
-			<Cover data={area_detail.cover} />
+			{/* <Cover data={area_detail.cover} /> */}
+			<HomeFolio data={area_detail.home_folio} />
 			<OverviewDestination data={area_detail.overview} />
+			<DestinationFuture />
 			<Trip data={area_detail.trip} itinerary={area_detail.itinerary} />
 		</>
 	);

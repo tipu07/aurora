@@ -3,8 +3,9 @@ import Banner from "./section/Banner";
 import Areas from "./section/Areas";
 // import Assets from "./section/Assets";
 import Works from "./section/Works";
-import Guide from "./section/Guide";
+// import Guide from "./section/Guide";
 // import Posts from "./section/Posts";
+import HomeFolio from "./section/HomeFolio";
 
 function Home() {
 	const home = {
@@ -196,6 +197,9 @@ function Home() {
 				},
 			],
 		},
+		home_folio: {
+			img_01: "/images/elephants-4864736_1920.jpg",
+		},
 	};
 	return (
 		<>
@@ -203,8 +207,9 @@ function Home() {
 			<Areas data={home.areas} />
 			{/* <Assets data={home.assets} /> */}
 			<Works data={home.works} />
-			<Guide data={home.guide} />
+			{/* <Guide data={home.guide} /> */}
 			{/* <Posts data={home.posts} /> */}
+			<HomeFolio data={home.home_folio} />
 		</>
 	);
 }

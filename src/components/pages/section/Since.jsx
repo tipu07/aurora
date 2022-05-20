@@ -20,7 +20,19 @@ function Since({ data }) {
 								</div> */}
 							</div>
 						</div>
-						{data.image.map((val) => {
+						<div className="col">
+							<div className="vid_blk">
+								<video controls={true} loop="" playsInline="">
+									<source src={data.video} type="video/mp4" />
+								</video>
+							</div>
+						</div>
+						<div className="col">
+							<figure>
+								<img src={data.image[1].src} alt="" />
+							</figure>
+						</div>
+						{/* {data.image.map((val) => {
 							return (
 								<div className="col" key={val.id}>
 									<figure>
@@ -28,7 +40,7 @@ function Since({ data }) {
 									</figure>
 								</div>
 							);
-						})}
+						})} */}
 					</div>
 				</div>
 			</section>
