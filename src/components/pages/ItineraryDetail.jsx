@@ -11,8 +11,8 @@ function ItineraryDetail() {
 			heading: "Itinerary Details",
 		},
 		tabs: {
-			link_01: "Overview",
-			link_hash_01: "OverviewBlk",
+			link_01: "Summary",
+			link_hash_01: "SummaryBlk",
 			link_02: "Itinerary",
 			link_hash_02: "ItineraryBlk",
 			link_03: "Accommodation",

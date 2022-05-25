@@ -6,12 +6,10 @@ function ItineraryDetailPage({ data, itinerary }) {
 		<>
 			<section id="itinerary_page">
 				<div className="contain">
-					<div id="OverviewBlk" className="flex_row master_row">
-						<div className="col col1">
-							<h3 className="fancy text-center">Overview</h3>
-						</div>
-						<div className="col col2">
-							<div className="content">
+					<div id="SummaryBlk">
+						<div className="flex_row row">
+							<div className="col-lg-9">
+								<h3 className="fancy">Summary</h3>
 								<p>
 									<strong>Botswana's deserts, pans and deltas are some of the last great, untouched wildernesses in Southern Africa. With vast expanses of diverse terrain and a thriving ecosystem like no other on earth, Botswana is undoubtedly one of the best safari locations in the world.</strong>
 								</p>
@@ -24,6 +22,189 @@ function ItineraryDetailPage({ data, itinerary }) {
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolore minima amet ut aliquam, nihil earum? Dolore amet, ut, nisi voluptatum ex iste corporis magni ratione voluptas, iure debitis modi.</p>
 								<p>Whether you be camping under the stars with your vehicle, or exploring the floodplains of the Okavango Delta by mokoro, be prepared to be amazed.</p>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolore minima amet ut aliquam, nihil earum? Dolore amet, ut, nisi voluptatum ex iste corporis magni ratione voluptas, iure debitis modi.</p>
+							</div>
+							<div className="col-lg-3">
+								<div className="fig">
+									<img src="/images/xLP06.png" alt="" />
+								</div>
+							</div>
+						</div>
+						<div className="br"></div>
+						<hr />
+						<div className="br"></div>
+						<div className="flex_row row align-items-center justify-content-between">
+							<div className="col-lg-6">
+								<div className="fig">
+									<img src="/images/kyle-mijlof-01-1034x530.jpg" alt="" />
+								</div>
+							</div>
+							<div className="col-lg-5">
+								<h3 className="fancy">Highlights</h3>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos pariatur vero quos ipsum ipsam.</p>
+								<ul>
+									<li>Lorem ipsum dolor sit amet</li>
+									<li>Consectetur adipisicing elit. Inventore</li>
+									<li>Illo aliquam, nulla qui,</li>
+									<li>Quibusdam officia praesentium repellat placeat</li>
+									<li>Ut provident molestiae magni aliquid nisi?</li>
+									<li>Amet quos quibusdam ut porro assumenda!</li>
+								</ul>
+							</div>
+						</div>
+						<div className="br"></div>
+						<hr />
+						<div className="br"></div>
+						<div className="flex_row row align-items-center justify-content-between">
+							<div className="col-lg-6">
+								<h3 className="fancy">Activities</h3>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis reprehenderit, exercitationem doloribus ad cumque enim consequatur, quidem.</p>
+								<div className="br"></div>
+								<div className="flex_row row">
+									<div className="col-md-6">
+										<div className="ico_blk">
+											<div className="ico">
+												<img src="/images/icon-blackboard.svg" alt="" />
+											</div>
+											<span>Lorem Ipsum dollar site</span>
+										</div>
+									</div>
+									<div className="col-md-6">
+										<div className="ico_blk">
+											<div className="ico">
+												<img src="/images/icon-roller.svg" alt="" />
+											</div>
+											<span>Lorem Ipsum dollar site</span>
+										</div>
+									</div>
+									<div className="col-md-6">
+										<div className="ico_blk">
+											<div className="ico">
+												<img src="/images/icon-stats-up.svg" alt="" />
+											</div>
+											<span>Lorem Ipsum dollar site</span>
+										</div>
+									</div>
+									<div className="col-md-6">
+										<div className="ico_blk">
+											<div className="ico">
+												<img src="/images/icon-blackboard.svg" alt="" />
+											</div>
+											<span>Lorem Ipsum dollar site</span>
+										</div>
+									</div>
+									<div className="col-md-6">
+										<div className="ico_blk">
+											<div className="ico">
+												<img src="/images/icon-roller.svg" alt="" />
+											</div>
+											<span>Lorem Ipsum dollar site</span>
+										</div>
+									</div>
+									<div className="col-md-6">
+										<div className="ico_blk">
+											<div className="ico">
+												<img src="/images/icon-stats-up.svg" alt="" />
+											</div>
+											<span>Lorem Ipsum dollar site</span>
+										</div>
+									</div>
+									<div className="col-md-6">
+										<div className="ico_blk">
+											<div className="ico">
+												<img src="/images/icon-blackboard.svg" alt="" />
+											</div>
+											<span>Lorem Ipsum dollar site</span>
+										</div>
+									</div>
+									<div className="col-md-6">
+										<div className="ico_blk">
+											<div className="ico">
+												<img src="/images/icon-stats-up.svg" alt="" />
+											</div>
+											<span>Lorem Ipsum dollar site</span>
+										</div>
+									</div>
+									<div className="col-md-6">
+										<div className="ico_blk">
+											<div className="ico">
+												<img src="/images/icon-blackboard.svg" alt="" />
+											</div>
+											<span>Lorem Ipsum dollar site</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg-6">
+								<div className="fig">
+									<img src="/images/5d7765e8a2a386c83fbc0c6f_Horse-Riding-Botswana.jpg" alt="" />
+								</div>
+							</div>
+						</div>
+						<div className="br"></div>
+						<hr />
+						<div className="br"></div>
+						<div className="flex_row row justify-content-center text-center">
+							<div className="col-lg-8">
+								<h3 className="fancy">Let us help you customise your trip</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis architecto placeat dolorem rerum.</p>
+							</div>
+						</div>
+						<div className="br"></div>
+						<div className="flex_row row justify-content-center text-center">
+							<div className="col-lg col-md-4 col-sm-6">
+								<div className="inner customise_blk">
+									<div className="ico">
+										<img src="/images/01.svg" alt="" />
+									</div>
+									<div className="txt">
+										<h4 className="fancy">1. Talk to an expert</h4>
+										<p>Ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolorum. Ipsam, deleniti. Architecto quam eaque similique, delectus.</p>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg col-md-4 col-sm-6">
+								<div className="inner customise_blk">
+									<div className="ico">
+										<img src="/images/02.svg" alt="" />
+									</div>
+									<div className="txt">
+										<h4 className="fancy">2. Set up your itinerary</h4>
+										<p>Ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolorum. Ipsam, deleniti. Architecto quam eaque similique, delectus.</p>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg col-md-4 col-sm-6">
+								<div className="inner customise_blk">
+									<div className="ico">
+										<img src="/images/03.svg" alt="" />
+									</div>
+									<div className="txt">
+										<h4 className="fancy">3. Prepare for your trip</h4>
+										<p>Ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolorum. Ipsam, deleniti. Architecto quam eaque similique, delectus.</p>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg col-md-4 col-sm-6">
+								<div className="inner customise_blk">
+									<div className="ico">
+										<img src="/images/04.svg" alt="" />
+									</div>
+									<div className="txt">
+										<h4 className="fancy">4. Travel with peace of mind</h4>
+										<p>Ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolorum. Ipsam, deleniti. Architecto quam eaque similique, delectus.</p>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg col-md-4 col-sm-6">
+								<div className="inner customise_blk">
+									<div className="ico">
+										<img src="/images/05.svg" alt="" />
+									</div>
+									<div className="txt">
+										<h4 className="fancy">5. When you return</h4>
+										<p>Ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolorum. Ipsam, deleniti. Architecto quam eaque similique, delectus.</p>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>

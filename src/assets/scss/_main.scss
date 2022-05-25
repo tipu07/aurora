@@ -2098,6 +2098,15 @@ footer {
 	#map_blk {
 		height: calc(100vh - 14rem);
 	}
+	.ico_blk {
+		@include flex(center);
+		> .ico {
+			width: 4rem;
+			min-width: 4rem;
+			height: 4rem;
+			margin-right: 2rem;
+		}
+	}
 	.itinerary_row {
 		> .col {
 			width: 50%;
@@ -2123,6 +2132,19 @@ footer {
 			h6 {
 				margin: 1rem 0 0;
 			}
+		}
+	}
+}
+
+.customise_blk {
+	.ico {
+		width: 10rem;
+		min-width: 10rem;
+		height: 10rem;
+		margin: 0 auto 2rem;
+		> img {
+			-o-object-fit: fill;
+			object-fit: fill;
 		}
 	}
 }
